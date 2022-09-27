@@ -1,3 +1,2 @@
-# GalenitBinah
+# DarwellCore
 
-A description of this package.
