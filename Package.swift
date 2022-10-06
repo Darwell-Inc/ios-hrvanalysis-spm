@@ -11,7 +11,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "DarwellXpCore",
+            name: "DarwellXPCore",
             targets: [
                 "DarwellXpCore", "DarwellCore"
             ]
