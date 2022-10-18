@@ -31,7 +31,7 @@ let package = Package(
 		),
        .binaryTarget(
             name: "DarwellCore",
-            url: "https://github.com/galen-it/core-ios-spm/releases/download/1.3.1/DarwellCore.xcframework.zip",
+            url: "https://github.com/darwell-inc/monolith-ios-spm/releases/download/1.3.2/DarwellCore.xcframework.zip",
             checksum: "e02b20d2cc74690396dfbbd688b747ef00d336d6c668da0da192aa7733954f25"
         )
     ]
