@@ -21,7 +21,7 @@ let package = Package(
        .binaryTarget(
             name: "HRVAnalysis",
             url: "https://github.com/darwell-inc/ios-hrvanalysis-spm/releases/download/1.0.1/HRVAnalysis.xcframework.zip",
-            checksum: "3c4c2ddfeecea04b040a00050f14a7e95c24563b17be49db3538035fbf5615a4"
+            checksum: "6202d4295bf7f01838c892a0f4981ed3f9e1f12876bdf09e639af5e0835d784d"
         )
     ]
 )
