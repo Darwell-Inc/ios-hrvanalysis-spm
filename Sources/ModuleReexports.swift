@@ -1,2 +1,2 @@
-@_exported import DarwellCore
+@_exported import HRVAnalysis
 

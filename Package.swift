@@ -3,36 +3,25 @@
 import PackageDescription
 
 #warning("move binary artifact to private hosting")
-#warning("core-ios-spm is public due to a bug is SPM/Xcode that prevents authentication")
+#warning("it's public due to a bug is SPM/Xcode that prevents authentication")
 let package = Package(
-    name: "darwell-xpcore",
+    name: "ios-hrvanalysis",
     platforms: [
         .iOS(.v14)
     ],
     products: [
         .library(
-            name: "DarwellXPCore",
+            name: "HRVAnalysis",
             targets: [
-                "DarwellXpCore", "DarwellCore"
+                "HRVAnalysis"
             ]
         ),
     ],
-	dependencies: [
-		.package(url: "git@github.com:ivalx1s/swift-tensorflowlite-spm.git", from: "2.7.0"),
-	],
     targets: [
-		.target(
-			name: "DarwellXpCore",
-			dependencies: [
-				"DarwellCore",
-				.product(name: "TensorFlowLite", package: "swift-tensorflowlite-spm")
-			],
-			path: "Sources"
-		),
        .binaryTarget(
-            name: "DarwellCore",
-            url: "https://github.com/darwell-inc/monolith-ios-spm/releases/download/1.3.2/DarwellCore.xcframework.zip",
-            checksum: "e02b20d2cc74690396dfbbd688b747ef00d336d6c668da0da192aa7733954f25"
+            name: "HRVAnalysis",
+            url: "https://github.com/darwell-inc/ios-hrvanalysis-spm/releases/download/1.0.0/HRVAnalysis.xcframework.zip",
+            checksum: "766a48638fff132bcd9a34cd3305096237c8c687ca841b204efb4b71972a0231"
         )
     ]
 )
